@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canva Blend Modes App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Canva Blend Modes</h1>
+    <p>Select a blend mode to apply to the image:</p>
+
+    <div id="blendOptions">
+        <button class="blend-option" data-mode="normal">Normal</button>
+        <button class="blend-option" data-mode="screen">Screen</button>
+        <button class="blend-option" data-mode="multiply">Multiply</button>
+        <button class="blend-option" data-mode="overlay">Overlay</button>
+        <button class="blend-option" data-mode="darken">Darken</button>
+        <button class="blend-option" data-mode="lighten">Lighten</button>
+    </div>
+
+    <canvas id="blendCanvas"></canvas>
+
+    <script src="app.js"></script>
+</body>
+</html>

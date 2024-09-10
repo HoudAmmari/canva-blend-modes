@@ -1,0 +1,45 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Styling the container holding the blend options */
+#blendOptions {
+    margin-bottom: 20px;
+}
+
+/* Styling each blend mode button */
+.blend-option {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.blend-option:hover {
+    background-color: #005bb5;
+}
+
+/* Styling for the canvas element */
+#blendCanvas {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ccc;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Responsive Design: Make canvas adjust on smaller screens */
+@media (max-width: 600px) {
+    #blendCanvas {
+        width: 100%;
+        height: auto;
+    }
+}
